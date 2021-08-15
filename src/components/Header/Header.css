@@ -1,0 +1,13 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 8px;
+  margin-bottom: 64px;
+  font-family: 'Style Script', cursive;
+
+}
+
+.header__title {
+  cursor: pointer;
+}

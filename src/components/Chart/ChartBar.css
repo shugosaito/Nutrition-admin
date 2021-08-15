@@ -1,0 +1,27 @@
+.chartBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 24px;
+  height: 20px;
+}
+
+.chartBar__label {
+  width: 20px;
+  text-align: center;
+}
+
+.chartBar__inner {
+  width: 92%;
+  height: 100%;
+  border: 1px solid rgba(255, 166, 0, 0.8);
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.chartBar__content {
+  background-color: orange;
+  height: 100%;
+  display: inline-block;
+  transition: .4s;
+}

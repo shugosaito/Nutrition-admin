@@ -1,0 +1,49 @@
+.newMeal__form {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-top: 40px;
+}
+
+.newMeal__container {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  margin-bottom: 40px;
+}
+
+.newMeal__label {
+  position: relative;
+  margin-bottom: 8px;
+}
+
+.newMeal__input {
+  outline: none;
+  padding: 4px 0;
+  border: 1px solid rgba(255, 166, 0, 0.8);
+  border-radius: 16px;
+}
+
+.newMeal__actions {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.newMeal__actions button {
+  cursor: pointer;
+  background-color: transparent;
+}
+
+.newMeal__actions-cancel {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 0px 4px;
+  font-size: 16px;
+}
+
+.newMeal__actions-add {
+  padding: 8px 16px;
+}
