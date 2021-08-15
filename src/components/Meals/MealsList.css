@@ -1,9 +1,0 @@
-.mealsList-error, .mealsList {
-  margin-bottom: 48px;
-}
-
-.mealsList {
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-}
